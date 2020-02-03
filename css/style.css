@@ -34,6 +34,19 @@ input[type="submit"],.panel-body ul li a,.checkout-right-basket a,.additional_in
 .header {
     padding: 2em 0 0;
 }
+
+
+/* .div_mit_background{
+	margin-right: center;
+    margin-left: center;
+    
+    width: 1200px;
+    
+    background-image: url('https://www.minhaoperadora.com.br/wp-content/uploads/2019/11/Telef%C3%B4nica-Vivo-vende-1.jpg');
+    height: 200px;
+} */
+
+
 .w3l_login{
 	float:left;
 }
@@ -2079,9 +2092,9 @@ section#tables  p {
 }
 .tab-container .tab-content {
 	border-radius: 0 2px 2px 2px;
-	border: 1px solid #e0e0e0;
+	border: 1px solid #2564ac;
 	padding: 16px;
-	background-color: #ffffff;
+	background-color: #2564ac;
 }
 .table td, .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
 	padding: 15px!important;
