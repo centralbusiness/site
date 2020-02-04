@@ -541,11 +541,11 @@ li.w3pages .dropdown-menu > li > a:hover{
 .banner h3{
 	font-size: 2em;
     color:#fff;
-    transform: rotate(-90deg);
+    /*transform: rotate(-90deg);
     -webkit-transform: rotate(-90deg);
     -moz-transform: rotate(-90deg);
     -o-transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);*/
     text-transform: uppercase;
     width: 45%;
     margin: 9em 0 0;
@@ -554,11 +554,12 @@ li.w3pages .dropdown-menu > li > a:hover{
 }
 .banner h3 span{
 	display: block;
-    color:#ff5063;
+    color:#0066a8;
     margin: 1em 0 0 2em;
 	position:relative;
 }
-.banner h3 span:after{
+
+/*.banner h3 span:after{
 	content: '';
     background: #fff;
     height: 1px;
@@ -566,7 +567,8 @@ li.w3pages .dropdown-menu > li > a:hover{
     position: absolute;
     bottom: 45%;
     left: 72%;
-}
+}*/
+
 /*-- //banner --*/
 /*-- banner-bottom --*/
 .banner-bottom,.team,.checkout,.additional_info,.team-bottom,.single,.mail,.special-deals,.about,.faq,.typo,.new-products,.banner-bottom1,.top-brands,.mobiles,.w3l_related_products{
