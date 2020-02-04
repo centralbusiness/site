@@ -12,6 +12,10 @@ html, body{
 p{
 	margin:0;
 	font-size:14px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 h1,h2,h3,h4,h5,h6{
 	font-family: 'Glegoo', serif;
@@ -4605,7 +4609,7 @@ td.invert-image a img {
 		font-size: 14px;
 	}
 	.w3l_logo {
-		margin-left: 2em;
+		margin-left: 0em;
 	}
 	.w3l_login {
 		margin: .8em 0 0;
