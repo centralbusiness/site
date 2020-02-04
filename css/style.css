@@ -36,17 +36,6 @@ input[type="submit"],.panel-body ul li a,.checkout-right-basket a,.additional_in
 }
 
 
-/* .div_mit_background{
-	margin-right: center;
-    margin-left: center;
-    
-    width: 1200px;
-    
-    background-image: url('https://www.minhaoperadora.com.br/wp-content/uploads/2019/11/Telef%C3%B4nica-Vivo-vende-1.jpg');
-    height: 200px;
-} */
-
-
 .w3l_login{
 	float:left;
 }
@@ -82,7 +71,7 @@ input[type="submit"],.panel-body ul li a,.checkout-right-basket a,.additional_in
 	top:1.3em;
 }
 a.act {
-    color:#ff5063 !important;
+    color:#ffffff !important;
 }
 /*-- search --*/
 .search{
@@ -156,7 +145,7 @@ label.icon-search {
 	-webkit-transition:0.3s all ease-out 0.5s;
 }
 label.icon-search span {
-    color: #ff5063;
+    color: #ffffff;
     border: 1px solid;
     padding: .6em;
 }
@@ -376,7 +365,7 @@ p.sbmincart-empty-text {
     color: #d8703f;
 }
 .navbar-default .navbar-nav > li > a:focus {
-    color: #ff5063 !important;
+    color: #ffffff !important;
 }
 .navbar-default {
     background: none;
@@ -387,7 +376,7 @@ p.sbmincart-empty-text {
 }
 ul.multi-column-dropdown h6 {
     font-size: 1.5em; 
-    color:#3c43a4;
+    color:#0066a8;
     margin: 0 0 1em;
     padding-bottom: 1em;
     border-bottom: 1px solid #E4E4E4;
@@ -452,7 +441,7 @@ ul.multi-column-dropdown h6 {
     letter-spacing: 2px;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    color:#ff5063;
+    color:#ffffff;
 }
 .navbar {
     margin-bottom: 0;
@@ -4498,7 +4487,7 @@ td.invert-image a img {
 		font-size: .4em;
 	}
 	.w3l_logo {
-		margin-left: 3em;
+		margin-left: 0em;
 	}
 	.search_box:checked~.search_form {
 		width: 365px;
