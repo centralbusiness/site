@@ -547,7 +547,7 @@ li.w3pages .dropdown-menu > li > a:hover{
 	text-align: left;
 }
 .banner.banner1{
-	background:url(../imagens/bg1.jpg) no-repeat center;
+	background:url(../imagens/celulares/b2.jpg) no-repeat center;
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -555,7 +555,7 @@ li.w3pages .dropdown-menu > li > a:hover{
 	-ms-background-size:cover; 
 }
 .banner.banner2{
-	background:url(../imagens/bg2.jpg) no-repeat center;
+	background:url(../imagens/computadores/01.png) no-repeat center;
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -563,7 +563,7 @@ li.w3pages .dropdown-menu > li > a:hover{
 	-ms-background-size:cover;
 }
 .banner.banner3{
-	background:url(../imagens/bg3.jpg) no-repeat center;
+	background:url(../imagens/celulares/b2.png) no-repeat center;
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
