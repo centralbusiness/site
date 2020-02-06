@@ -194,10 +194,17 @@
 		width: 215px;
 		height: 244px;
 	}
+	
 	.hs-wrapper1 {
 		width: 150px !important;
 		height: 200px !important;
 	}
+
+	.hs-wrapper1-2 {
+		width: 300px !important;
+		height: 300px !important;
+	}
+
 	.hs-wrapper2 {
 		width: 210px !important;
 		height: 280px !important;
