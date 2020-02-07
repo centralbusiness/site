@@ -4424,7 +4424,7 @@ td.invert-image a img {
 	.contact-left h4 {
 		font-size: 1.2em;
 	}
-	.contact-left input[type="text"], .contact-left input[type="email"] {
+	.contact-left input[type="text"], .contact-left input[type="email"] .contact-left input[type="number"] {
 		width: 100%;
 	}
 	.contact-left input[type="email"] {
