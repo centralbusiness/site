@@ -116,7 +116,7 @@ Author URL: https://lohjati.com.br
 									</div>
 									<div class="col-sm-3">
 										<ul class="multi-column-dropdown">
-											<h6>Computadores</h6>
+											<h6>Vivo Tech</h6>
 											<li><a href="port/VivoTECH_Janeiro_2020.pdf" target="_blank">Positivo</a></li>
 											<li><a href="port/VivoTECH_Janeiro_2020.pdf" target="_blank">Lenovo</a></li>
 											<li><a href="port/VivoTECH_Janeiro_2020.pdf" target="_blank">DELL</a></li>
@@ -125,7 +125,7 @@ Author URL: https://lohjati.com.br
 									</div>
 									<div class="col-sm-3">
 										<ul class="multi-column-dropdown">
-											<h6>Vivo Fibra</h6>
+											<h6>Fixa Básica</h6>
 											<li><a href="port/vivo_fixa.pdf" target="_blank">100 MB</a></li>
 											<li><a href="port/vivo_fixa.pdf" target="_blank">300 MB</a></li>
 											<li><a href="port/vivo_fixa.pdf" target="_blank">600 MB</a></li>
@@ -158,13 +158,11 @@ Author URL: https://lohjati.com.br
 	</div>
 	<!-- //navigation -->
 
-	<div class="w3-content w3-display-container">
-	<img class="mySlides" src="imagens/s01.png" style="width:100%">
-	<img class="mySlides" src="imagens/s02.jpg" style="width:100%">
-	<img class="mySlides" src="imagens/s03.jpg" style="width:100%">
-	<img class="mySlides" src="imagens/s04.jpg" style="width:100%">
-	<img class="mySlides" src="imagens/s05.png" style="width:100%">
-	<img class="mySlides" src="imagens/s07.jpg" style="width:100%">
+	<div id="mySlides" class="w3-content w3-display-container">
+	<img id="mySlides" class="mySlides" src="imagens/s01.png" style="width:100%">
+	<img id="mySlides" class="mySlides" src="imagens/s02.jpg" style="width:100%">
+	<img id="mySlides" class="mySlides" src="imagens/s03.jpg" style="width:100%">
+	<img id="mySlides" class="mySlides" src="imagens/s04.jpg" style="width:100%">
 
 	<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
 	<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
@@ -183,11 +181,12 @@ Author URL: https://lohjati.com.br
 	var x = document.getElementsByClassName("mySlides");
 	if (n > x.length) {slideIndex = 1}
 	if (n < 1) {slideIndex = x.length}
-	for (i = 0; i < x.length; i++) {
-	x[i].style.display = "none";  
+		for (i = 0; i < x.length; i++) {
+			x[i].style.display = "none";  
+		}
+		x[slideIndex-1].style.display = "block";
 	}
-	x[slideIndex-1].style.display = "block";  
-	}
+
 	</script>
 	<!-- //banner --> 
 
